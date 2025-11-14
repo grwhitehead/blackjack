@@ -141,6 +141,7 @@ Here are the results from my Python code:
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0949|0.1255|0.1681|0.2138|0.2256|0.1462|0.0580|-0.0368|-0.1694|-0.3599|
+
 **Overall:** -0.0033
 
 Which is very close to Cantey's corrected value.
@@ -237,6 +238,7 @@ Doing this we get the following result:
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0946|0.1298|0.1758|0.2295|0.2366|0.1455|0.0556|-0.0404|-0.1731|-0.3658|
+
 **Overall:** -0.0024
 
 Which is satisfyingly close to Thorp's -0.21%.
@@ -278,6 +280,7 @@ The result matches Thorp:
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.1011|0.1375|0.1832|0.2375|0.2423|0.1465|0.0546|-0.0438|-0.1715|-0.3617|
+
 **Overall:** 0.0009
 
 
@@ -313,6 +316,7 @@ My Python code can also be used to calculate the expected winnings for other sim
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0731|0.0981|0.1275|0.1621|0.1775|0.1246|0.0442|-0.0458|-0.1716|-0.3710|
+
 **Overall:** -0.0228
 
 #### More Exact Calculation (ewcalc2.py)
@@ -321,6 +325,7 @@ My Python code can also be used to calculate the expected winnings for other sim
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0727|0.1008|0.1329|0.1685|0.1782|0.1156|0.0334|-0.0563|-0.1760|-0.3734|
+
 **Overall:** -0.0255
 
 ### Mimic Dealer
@@ -342,6 +347,7 @@ My Python code can also be used to calculate the expected winnings for other sim
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0161|0.0304|0.0473|0.0707|0.0955|0.1231|0.0376|-0.0563|-0.1833|-0.3656|
+
 **Overall:** -0.0565
 
 #### More Exact Calculation (ewcalc2.py)
@@ -350,6 +356,7 @@ My Python code can also be used to calculate the expected winnings for other sim
 |2|3|4|5|6|7|8|9|10|A|
 |--|--|--|--|--|--|--|--|--|--|
 |0.0156|0.0281|0.0446|0.0661|0.0912|0.1218|0.0362|-0.0579|-0.1799|-0.3651|
+
 **Overall:** -0.0568
 
 
