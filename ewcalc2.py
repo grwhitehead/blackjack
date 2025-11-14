@@ -243,7 +243,10 @@ def main(argv):
                             w = -b
                             p = drawProb([dfu], [d2, p1, p2])*(2 if p2 < p1 else 1)
                             expectedWinnings[dfu-1] += p*w
-                            ptotal += p 
+                            ptotal += p
+                        else:
+                            p = drawProb([dfu], [d2, p1, p2])*(2 if p2 < p1 else 1)
+                            ptotal += p
                         continue
                     if pnat:
                         # player wins 1.5*b on a natural
